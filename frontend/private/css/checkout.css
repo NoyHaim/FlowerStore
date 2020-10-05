@@ -1,0 +1,134 @@
+h1 {
+    font-family: Century Gothic;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: papyrus;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+    font-family: Century Gothic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+.top-menu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.top-menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.top-menu a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.top-menu a.active {
+    background-color: beige;
+    color: black;
+}
+
+.logo {
+    padding: 1% 0 0;
+    margin: auto;
+}
+
+.checkout-form {
+    font-size: 20px;
+    padding: 14px 100px;
+    position: relative;
+}
+
+.checkout-button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: black;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.checkout-button:hover, login-button:active, .form button:focus {
+    background: black;
+}
+
+.flowers-class:hover .image-class {
+    opacity: 0.5;
+}
+
+.flowers-class:hover .add-button {
+    display: block;
+    background-color: black;
+}
+
+.flowers-class {
+    position: relative;
+}
+
+.add-button {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+    text-transform: uppercase;
+}
+
+.logout-button {
+    top: 0;
+    right: 0;
+    text-align: right;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #333;
+    color: #f2f2f2;
+    border: 0;
+    padding: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 0px;
+    position: absolute;
+
+}
+
+.paymment {
+    font-size: 20px;
+    padding-left: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}

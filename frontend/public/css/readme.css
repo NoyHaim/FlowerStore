@@ -1,0 +1,69 @@
+h1 {
+    font-family: Century Gothic;
+    color: black;
+    font-size: 110px;
+    text-align: center;
+}
+
+h2 {
+    font-family: papyrus;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-image: url("../../private/flowers_background.jpg");
+    font-size: 18px;
+    font-weight: bold;
+    background-repeat: repeat;
+    background-color: #cccccc;
+    background-color: beige;
+    font-family: Century Gothic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+.top-menu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.top-menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.top-menu a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.top-menu a.active {
+    background-color: beige;
+    color: black;
+}
+
+.logo {
+    padding: 1% 0 0;
+    margin: auto;
+    background-color: beige;
+    width: 40%;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.data {
+    padding: 1% 0 0;
+    margin: auto;
+    background-color: beige;
+    width: 40%;
+    padding: 15px;
+    opacity: 0.8;
+}

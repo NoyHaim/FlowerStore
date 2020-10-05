@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amarante</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/checkout.css">
+    <script type="text/javascript" src="js/checkout.js"></script>
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico"/>
+
+</head>
+<body>
+<div class="top-menu">
+    <input class="logout-button" id="logout" type="button" value="logout" onclick="onLogout()">
+    <a href="home.html">Home</a>
+    <a href="store.html">Store</a>
+    <a href="cart.html">Cart</a>
+    <a href="wishlist.html">Wishlist</a>
+    <a href="purchases.html">Purchases</a>
+    <a class="active" href="checkout.html">Checkout</a>
+    <a href="admin.html">Admin</a>
+</div>
+<div class="logo" style="padding-left:16px">
+    <h1>Amarante</h1>
+    <h2>Flowers Boutique</h2>
+</div>
+<div id="checkout-page">
+    <div class="form">
+        <form class="checkout-form">
+            <label for="first-name">First name:</label>
+            <input class="inputs" id="first-name" type="text"/><br><br>
+            <label for="last-name">Last name:</label>
+            <input class="inputs" id="last-name" type="text"/><br><br>
+            <label for="email">Email:</label>
+            <input class="inputs" id="email" type="text"/><br><br>
+            <label for="id">ID:</label>
+            <input class="inputs" id="id" type="text"/><br><br>
+            <label for="credit-card">Credit Card:</label>
+            <input class="inputs" id="credit-card" type="text"/><br><br>
+            <label for="expiration-date">Expiration Date:</label>
+            <input class="inputs" id="expiration-date" type="text"/><br><br>
+            <div id="error"></div>
+        </form>
+    </div>
+</div>
+<div id="paymment" class="paymment"></div>
+<div id="flowers"></div>
+<input class="checkout-button" id="checkout" type="button" value="Checkout" onclick="checkout()">
+</body>
+</html>

@@ -1,0 +1,82 @@
+h1 {
+    font-family: Century Gothic;
+    color: black;
+    font-size: 110px;
+    text-align: center;
+}
+
+h2 {
+    font-family: papyrus;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-image: url("../flowers_background.jpg");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    background-color: beige;
+    font-family: Century Gothic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+.top-menu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.top-menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.top-menu a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.top-menu a.active {
+    background-color: beige;
+    color: black;
+}
+
+.logo {
+    margin: auto;
+    background-color: beige;
+    width: 40%;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.welcome-message {
+    padding: 0px;
+    font-family: Century Gothic;
+}
+
+.logout-button {
+    top: 0;
+    right: 0;
+    text-align: right;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #333;
+    color: #f2f2f2;
+    border: 0;
+    padding: 12px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 0px;
+    position: absolute;
+
+}

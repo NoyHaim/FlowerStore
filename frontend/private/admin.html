@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amarante</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/admin.css">
+    <script type="text/javascript" src="js/admin.js"></script>
+    <link rel="icon" type="image/x-icon" href="../public/favicon.ico"/>
+
+</head>
+<body>
+<div class="top-menu">
+    <input class="logout-button" id="logout" type="button" value="logout" onclick="onLogout()">
+    <a href="home.html">Home</a>
+    <a href="store.html">Store</a>
+    <a href="cart.html">Cart</a>
+    <a href="wishlist.html">Wishlist</a>
+    <a href="purchases.html">Purchases</a>
+    <a href="checkout.html">Checkout</a>
+    <a class="active" href="admin.html">Admin</a>
+
+</div>
+<div class="logo" style="padding-left:16px">
+    <h1>Amarante</h1>
+    <h2>Flowers Boutique</h2>
+    <h3>Admin Mode</h3>
+</div>
+<div class="form">
+    <form class="search-form">
+        <input class="inputs" id="search-input" type="text" placeholder="Search.."/>
+        <input class="search-button" id="search" type="button" value="search user">
+    </form>
+</div>
+<div id="data"></div>
+
+</body>
+</html>

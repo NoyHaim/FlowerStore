@@ -1,5 +1,5 @@
 # FlowerStore
-The project is written using JS, NodeJSm HTML and CSS.
+The project is written using JS, NodeJS HTML and CSS.
 
 # Pages
 
